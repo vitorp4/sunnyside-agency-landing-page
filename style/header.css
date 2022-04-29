@@ -31,7 +31,7 @@ header {
   white-space: nowrap;
 }
 
-.header-content > .content > a > img {
+.header-content > .content > img {
   height: 120px;
   width: auto;
   animation: arrow-down-move 1s ease-in infinite alternate;

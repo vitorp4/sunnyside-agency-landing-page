@@ -1,0 +1,8 @@
+section#projects {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+section#projects img {
+  width: 100%;
+}

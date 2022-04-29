@@ -1,3 +1,11 @@
+@import 'header.css';
+@import 'toolbar.css';
+@import 'about.css';
+@import 'services.css';
+@import 'testimonials.css';
+@import 'projects.css';
+@import 'footer.css';
+
 :root {
   --soft-red: hsl(7, 99%, 70%);
   --yellow: hsl(51, 100%, 49%);
@@ -10,6 +18,12 @@
   --dark-grayish-blue: hsl(232, 10%, 55%);
   --grayish-blue: hsl(210, 4%, 67%);
   --white: hsl(0, 0%, 100%);
+  --footer-bg: #90d4c5;
+}
+
+html {
+  margin: 0;
+  padding: 0;
 }
 
 body {

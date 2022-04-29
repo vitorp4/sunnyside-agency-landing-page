@@ -11,6 +11,7 @@ section#about {
 
 .about-text {
   padding: 20%;
+  background-color: var(--white);
 }
 
 .about-text h2 {
