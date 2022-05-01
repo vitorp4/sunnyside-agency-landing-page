@@ -32,19 +32,25 @@
   <body>
     <header>
       <div class="toolbar">
-        <img src="images/logo.svg" />
+        <img src="images/logo.svg" class="logo" />
+
         <nav>
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="contact" class="contact">Contact</a></li>
+            <li><a href="#contact" class="contact">Contact</a></li>
           </ul>
         </nav>
+        
+        <button class="hamburger">
+          <img src="images/icon-hamburger.svg" class="img-mobile"/>
+        </button>
       </div>
 
       <div class="header-content">
-        <img src="images/desktop/image-header.jpg" alt="half orange fruit" />
+        <img src="images/desktop/image-header.jpg" alt="half orange fruit" class="img-desktop"/>
+        <img src="images/mobile/image-header.jpg" alt="half orange fruit" class="img-mobile" />
 
         <div class="content">
           <h1>We are creatives</h1>
@@ -56,32 +62,42 @@
 
     <main>
       <section id="about">
-        <div class="about-text">
-          <h2>Transform your brand</h2>
-          <p>
-            We are a full-service creative agency specializing in helping brands
-            grow fast. Engage your clients through compelling visuals that do
-            most of the marketing for you.
-          </p>
-          <a class="yellow">Learn more</a>
+        <div class="about-row">
+          <div class="about-text">
+            <h2>Transform your brand</h2>
+            <p>
+              We are a full-service creative agency specializing in helping brands
+              grow fast. Engage your clients through compelling visuals that do
+              most of the marketing for you.
+            </p>
+            <a class="yellow">Learn more</a>
+          </div>
+  
+          <img class="about-img img-desktop" src="images/desktop/image-transform.jpg"/>
+          <img class="about-img img-mobile" src="images/mobile/image-transform.jpg" />
         </div>
 
-        <img class="about-img" src="images/desktop/image-transform.jpg" />
-        <img class="about-img" src="images/desktop/image-stand-out.jpg" />
-
-        <div class="about-text">
-          <h2>Stand out to the right audience</h2>
-          <p>
-            Using a collaborative formula of designers, researchers,
-            photographers, videographers, and copywriters, we’ll build and
-            extend your brand in digital places.
-          </p>
-          <a class="red">Learn more</a>
+        <div class="about-row">
+          <img class="about-img img-desktop" src="images/desktop/image-stand-out.jpg" />
+          <img class="about-img img-mobile" src="images/mobile/image-stand-out.jpg" />
+  
+          <div class="about-text">
+            <h2>Stand out to the right audience</h2>
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a class="red">Learn more</a>
+          </div>
         </div>
       </section>
+
       <section id="services">
         <div class="service">
-          <img src="images/desktop/image-graphic-design.jpg" />
+          <img src="images/desktop/image-graphic-design.jpg" class="img-desktop" />
+          <img src="images/mobile/image-graphic-design.jpg" class="img-mobile" />
+
           <div class="service-text graphic-design">
             <h2>Graphic design</h2>
             <p>
@@ -92,7 +108,9 @@
           </div>
         </div>
         <div class="service">
-          <img src="images/desktop/image-photography.jpg" />
+          <img src="images/desktop/image-photography.jpg" class="img-desktop" />
+          <img src="images/mobile/image-photography.jpg" class="img-mobile" />
+
           <div class="service-text photography">
             <h2>Photography</h2>
             <p>
@@ -102,6 +120,7 @@
           </div>
         </div>
       </section>
+      
       <section id="testimonials">
         <h2>Client testimonials</h2>
         <div class="testimonials-grid">
@@ -144,13 +163,26 @@
       <section id="projects">
         <img
           src="images/desktop/image-gallery-milkbottles.jpg"
-          alt="milk bottles"
+          alt="milk bottles" class="img-desktop"
         />
-        <img src="images/desktop/image-gallery-orange.jpg" alt="orange fruit" />
-        <img src="images/desktop/image-gallery-cone.jpg" alt="ice crean cone" />
+        <img
+          src="images/mobile/image-gallery-milkbottles.jpg"
+          alt="milk bottles" class="img-mobile"
+        />
+
+        <img src="images/desktop/image-gallery-orange.jpg" alt="orange fruit" class="img-desktop"/>
+        <img src="images/mobile/image-gallery-orange.jpg" alt="orange fruit" class="img-mobile"/>
+
+        <img src="images/desktop/image-gallery-cone.jpg" alt="ice crean cone" class="img-desktop" />
+        <img src="images/mobile/image-gallery-cone.jpg" alt="ice crean cone" class="img-mobile" />
+
         <img
           src="images/desktop/image-gallery-sugarcubes.jpg"
-          alt="sugar cubes"
+          alt="sugar cubes" class="img-desktop"
+        />
+        <img
+          src="images/mobile/image-gallery-sugarcubes.jpg"
+          alt="sugar cubes" class="img-mobile"
         />
       </section>
     </main>

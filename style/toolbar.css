@@ -9,12 +9,12 @@
   z-index: 1;
 }
 
-.toolbar > img {
+.toolbar > img.logo {
   width: 200px;
   min-width: 200px;
 }
 
-nav ul {
+.toolbar nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -23,7 +23,7 @@ nav ul {
   gap: 48px;
 }
 
-nav li a {
+.toolbar nav li a {
   display: block;
   cursor: pointer;
   position: relative;
@@ -32,7 +32,7 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:not(.contact)::before {
+.toolbar nav li a:not(.contact)::before {
   content: '';
   position: absolute;
   bottom: -6px;
@@ -40,17 +40,17 @@ nav li a:not(.contact)::before {
   border-radius: 2px;
   width: 100%;
   transition: transform 0.3s;
-  background-color: var(--white);
+  background-color: currentColor;
   transform: scaleX(0);
   transform-origin: right;
 }
 
-nav li a:not(.contact):hover::before {
+.toolbar nav li a:not(.contact):hover::before {
   transform: scaleX(1);
   transform-origin: left;
 }
 
-nav li a.contact {
+.toolbar nav li a.contact {
   font-family: "Fraunces", sans-serif;
   color: var(--very-dark-desaturated-blue);
   background-color: var(--white);
@@ -61,7 +61,20 @@ nav li a.contact {
   transition: 0.2s;
 }
 
-nav li a.contact:hover {
+.toolbar nav li a.contact:hover {
   color: var(--white);
   background-color: rgba(255,255,255,0.3);
+}
+
+.toolbar > button.hamburger {
+   display: none;
+   width: 24px;
+   cursor: pointer;
+   background-color: transparent;
+   border: none;
+}
+
+.toolbar > button.hamburger svg {
+  width: 100%;
+  height: 100%;
 }

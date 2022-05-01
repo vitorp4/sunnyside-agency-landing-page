@@ -5,6 +5,7 @@
 @import 'testimonials.css';
 @import 'projects.css';
 @import 'footer.css';
+@import 'mobile.css';
 
 :root {
   --soft-red: hsl(7, 99%, 70%);
@@ -36,4 +37,8 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+.img-mobile {
+  display: none;
 }

@@ -1,0 +1,163 @@
+@media screen and (max-width: 500px) {
+  .img-desktop {
+    display: none;
+  }
+
+  .img-mobile {
+    display: block !important;
+  }
+
+  .toolbar > button.hamburger {
+    display: block;
+  }
+
+  .toolbar > nav {
+    position: absolute;
+    background-color: var(--white);
+    top: 110px;
+    width: calc(100vw - 64px);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 32px 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .toolbar > nav.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .toolbar > nav::before {
+    position: absolute;
+    content: '';
+    background-color: inherit;
+    height: 30px;
+    width: 25px;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    right: 0;
+    top: -29px;
+  }
+  
+  .toolbar nav ul {
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .toolbar nav li a {
+    color: var(--very-dark-grayish-blue);
+  }
+
+  .toolbar nav li a.contact {
+    background-color: var(--yellow);
+  }
+
+  .toolbar > img.logo {
+    width: 130px;
+    min-width: 130px;
+  }
+
+  .header-content > .content {
+    top: 43%;
+  }
+
+  .header-content > .content h1 {
+    font-size: 36px;
+    white-space: initial;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  .header-content > .content > img.hidden {
+    display: none;
+  }
+
+  .about-row {
+    grid-template-columns: 1fr;
+  }
+
+  .about-row:first-of-type > .about-text {
+    order: 1;
+  }
+
+  .about-row > .about-text {
+    padding: 56px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-row > .about-text > h2 {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  .about-row > .about-text > p {
+    margin-bottom: 0;
+  }
+
+  section#services {
+    grid-template-columns: 1fr;
+  }
+
+  .service-text {
+    padding: 350px 24px 32px;
+  }
+
+  .service-text h2 {
+    font-size: 28px;
+  }
+
+  .service-text p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  section#testimonials {
+    padding: 56px 24px;
+  }
+
+  section#testimonials h2 {
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin-top: 0;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial {
+    padding: 0;
+  }
+
+  .testimonial > p {
+    margin-top: 24px;
+  }
+
+  .user-data {
+    margin-top: 16px;
+  }
+
+  .user-data p.role {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+
+  section#projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer {
+    padding: 64px 24px 72px;
+  }
+
+  footer ul.section-links {
+    margin-top: 48px;
+  }
+
+  ul.social-links li {
+    font-size: 22px;
+  }
+}
