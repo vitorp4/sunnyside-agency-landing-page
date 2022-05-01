@@ -6,8 +6,10 @@ footer {
   padding: 72px;
 }
 
-footer > img {
-  width: 170px;
+footer > svg.logo {
+  color: var(--dark-moderate-cyan);
+  width: 160px;
+  height: auto;
 }
 
 footer ul {
