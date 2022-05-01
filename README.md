@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-1. Use the link tag with the attribute rel="preconnect" to stablish the connection with google fonts in advance 
+1. Use the link tag with the attribute rel="preconnect" to establish the connection with google fonts in advance 
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
