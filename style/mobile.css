@@ -54,6 +54,11 @@
     background-color: var(--yellow);
   }
 
+  .toolbar nav li a.contact:hover {
+    color: var(--very-dark-desaturated-blue);
+    background-color: var(--yellow);
+  }
+
   .toolbar > img.logo {
     width: 130px;
     min-width: 130px;
