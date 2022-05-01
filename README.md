@@ -92,4 +92,4 @@ In addition I recently discovered the picture and source HTML tags and I will us
 
 ## Acknowledgments
 
-I'm so grateful for all the users of Frontend Mentor who constantly gives me feedbacks. Thanks.
+I'm so grateful to all the users of Frontend Mentor who constantly gives me feedbacks. Thanks.
