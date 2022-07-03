@@ -89,6 +89,7 @@ In addition I recently discovered the picture and source HTML tags and I will us
 - Github - [@vitorp4](https://github.com/vitorp4)
 - Frontend Mentor - [@vitorp4](https://www.frontendmentor.io/profile/vitorp4)
 - Code Pen - [@vitorp4](https://codepen.io/vitorp4)
+- Medium - [@vitorp4](https://medium.com/@vitorp4)
 
 ## Acknowledgments
 
